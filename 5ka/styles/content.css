@@ -1,0 +1,85 @@
+.wrapper{
+    
+    display: flex;
+}
+.img-block{
+    
+    width: 224px;
+    height: 224px;
+    background-color: #f4f4f5;
+    background-image: url(&quot;https://photos.okolo.app/product/1174138-main/320x320.jpeg?updated_at=2024-12-18T14:09:11.095Z&quot;);
+}
+.a{
+    width: 220px;
+    height: 220px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin:  auto;
+  padding-top: 18px;
+
+}
+.content__module{
+    background-color:#f4f4f5 ;
+    
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+    display: flexbox;
+    
+}
+
+.content__module image{
+    height: 100px;
+    width: 100px;
+   
+    
+}
+
+.content-title{
+    font: 15px ;
+    font-size: bolder;
+    transition: 1s;
+}
+
+.content-title:hover{
+    color: red;
+}
+
+
+.content-subtitle{
+    color: #0000007A;
+}
+
+.sellprice{
+    font: 24px bolder;
+    
+}
+
+.button-buy{
+    height: 20px;
+    width: 220px;
+    background-color: #f4f4f5;
+    padding: 16px 20px;
+    border-radius: 200px;
+    text-align: center;
+    font-size: bolder   ;
+    cursor: pointer;
+    transition: 1s;
+}
+.button-buy:hover{
+    color: red;
+}
+.content{
+    display: flex;
+    gap: 50px  ;
+}
+.chakra-iconZ{
+ fill: orange;
+ width: 16px;
+    height: 16px;
+}
+.assessments{
+    margin-top: 20px;
+}

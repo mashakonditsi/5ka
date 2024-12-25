@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    justify-content: left;
+    margin: 34px;
+}
+
+.line{
+    display: flex;
+    gap: 30px;
+}
+.line-item:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+.line-item{
+    transition: 1s;
+}
+.svg-1{
+
+    width: 10px;
+    height: 6px;
+    padding-left: -10px;
+    transition: 1s;
+    
+}
+.svg-1:hover{
+    fill: red;
+    cursor: pointer;
+}
+.input{
+    margin: 34px;
+}
+.svg-2{
+    width: 44px;
+    height: 44px;
+    
+}
+
+.input-string{
+    display: flex;
+  height: 44px;
+  gap: 18px;
+
+}
+.button{
+    border: none;
+    width: 112px;
+    height: 44px;
+    background-color: #E52322;
+    color: white;
+    border-radius: 49pc;  
+}
+
+.svg-3{
+    width: 14px;
+    height: 14px;
+    fill: white;
+}
+.search{
+    
+    height: 39px;
+    border: 2px solid #E52322;
+    border-radius: 49pc;
+    width: 700px;
+}
+.header-search{
+    justify-content: right;
+    display: flex;
+}
+.chakra-icon{
+  
+    height: 16px;
+    width: 16px;
+}
+.chakra-icon1{
+    fill: #E52322;
+    height: 16px;
+    width: 16px;
+}
+.button2{
+    align-items: center;
+    height: 44px;
+    width: 270px;
+    background-color: #F4F4F5;
+    border-radius: 49pc;
+    justify-content: center;
+    display: flex;
+    transition: 1s;
+}
+.button2:hover{
+    color: #E52322;
+   
+    cursor: pointer;
+}
+.user{
+    height: 31px;
+    width: 31px;
+    transition: 1s;
+}
+.user:hover{
+    fill: #E52322;
+    cursor: pointer;
+}
+.basket:hover{
+    fill: #E52322;
+    cursor: pointer;
+}
+.basket{
+    height: 31px;
+    width: 31px;
+    transition: 1s;
+}
+.twosvg{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    
+}
